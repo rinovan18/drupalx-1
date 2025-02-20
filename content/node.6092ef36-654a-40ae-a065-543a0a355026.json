@@ -80,7 +80,7 @@
     "path": [
         {
             "alias": "\/terms-of-use",
-            "langcode": null
+            "langcode": "en"
         }
     ],
     "body": [

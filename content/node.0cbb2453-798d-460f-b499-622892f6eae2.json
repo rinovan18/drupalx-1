@@ -94,9 +94,9 @@
         {
             "status": 2,
             "cid": 0,
-            "last_comment_timestamp": 0,
-            "last_comment_name": "",
-            "last_comment_uid": 0,
+            "last_comment_timestamp": 1739919059,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
             "comment_count": 0
         }
     ],

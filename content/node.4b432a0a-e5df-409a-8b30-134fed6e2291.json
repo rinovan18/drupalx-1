@@ -80,7 +80,7 @@
     "path": [
         {
             "alias": "\/get-started",
-            "langcode": null
+            "langcode": "en"
         }
     ],
     "field_content": [

@@ -80,7 +80,7 @@
     "path": [
         {
             "alias": "\/page-not-found",
-            "langcode": null
+            "langcode": "en"
         }
     ],
     "body": [

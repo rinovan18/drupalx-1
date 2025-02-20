@@ -80,7 +80,7 @@
     "path": [
         {
             "alias": "\/pricing",
-            "langcode": null
+            "langcode": "en"
         }
     ],
     "field_content": [

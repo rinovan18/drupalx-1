@@ -80,7 +80,7 @@
     "path": [
         {
             "alias": "\/article\/article-title-3",
-            "langcode": null
+            "langcode": "en"
         }
     ],
     "body": [
@@ -94,9 +94,9 @@
         {
             "status": 2,
             "cid": 0,
-            "last_comment_timestamp": 0,
+            "last_comment_timestamp": 1740025188,
             "last_comment_name": null,
-            "last_comment_uid": 0,
+            "last_comment_uid": 1,
             "comment_count": 0
         }
     ],

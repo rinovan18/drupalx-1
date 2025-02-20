@@ -80,7 +80,7 @@
     "path": [
         {
             "alias": "\/access-denied",
-            "langcode": null
+            "langcode": "en"
         }
     ],
     "body": [

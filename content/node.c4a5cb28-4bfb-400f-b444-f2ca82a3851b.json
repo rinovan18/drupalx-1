@@ -80,7 +80,7 @@
     "path": [
         {
             "alias": "\/article\/article-title-2",
-            "langcode": null
+            "langcode": "en"
         }
     ],
     "body": [

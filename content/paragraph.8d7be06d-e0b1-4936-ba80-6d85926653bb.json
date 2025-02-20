@@ -43,10 +43,7 @@
         }
     ],
     "field_gambar": [
-        {
-            "target_type": "media",
-            "target_uuid": "4247b4b9-6e64-4b69-ad96-991d7c7aebb1"
-        }
+        []
     ],
     "field_heading": [
         {
