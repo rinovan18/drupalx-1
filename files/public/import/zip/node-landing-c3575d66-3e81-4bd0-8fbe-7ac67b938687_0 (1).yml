@@ -1,0 +1,1180 @@
+site_uuid: 12c82b84-74c1-4457-92c4-8b741b86a11e
+uuid: c3575d66-3e81-4bd0-8fbe-7ac67b938687
+entity_type: node
+bundle: landing
+base_fields:
+  title: 'DrupalX - AI-Powered Lightning Fast Development'
+  status: true
+  langcode: en
+  created: '1724541785'
+  author: admin@example.com
+  revision_log_message: null
+  revision_uid: '1'
+  url: /welcome
+custom_fields:
+  field_content:
+    -
+      uuid: 9627102d-ac79-4040-b137-662a4e97a1c5
+      entity_type: paragraph
+      bundle: hero
+      base_fields:
+        status: true
+        langcode: en
+        created: '1724541785'
+        behavior_settings: {  }
+      custom_fields:
+        field_heading:
+          -
+            value: '<strong>Empower</strong> Your Web Development with <strong>DrupalX</strong>'
+            format: restricted_html
+        field_hero_layout:
+          -
+            value: image_top
+        field_link:
+          -
+            uri: 'entity:node/5'
+            title: Start
+            options: {  }
+            linked_entity:
+              uuid: 4b432a0a-e5df-409a-8b30-134fed6e2291
+              entity_type: node
+              bundle: landing
+              base_fields:
+                title: 'Get Started'
+                status: true
+                langcode: en
+                created: '1724541785'
+                author: admin@example.com
+                revision_log_message: null
+                revision_uid: '1'
+                url: /get-started
+              custom_fields:
+                field_content:
+                  -
+                    uuid: c8176009-9da1-4dee-bfec-b62de0677704
+                    entity_type: paragraph
+                    bundle: hero
+                    base_fields:
+                      status: true
+                      langcode: en
+                      created: '1724541785'
+                      behavior_settings: {  }
+                    custom_fields:
+                      field_heading:
+                        -
+                          value: 'Get Started'
+                          format: restricted_html
+                      field_hero_layout:
+                        -
+                          value: image_bottom
+                      field_link: null
+                      field_link2: null
+                      field_media:
+                        -
+                          uuid: 9a33874e-ce03-4f0f-9c6e-164a416d574c
+                          entity_type: media
+                          bundle: image
+                          base_fields:
+                            name: card
+                            created: '1724541785'
+                            status: true
+                            langcode: en
+                            url: null
+                          custom_fields:
+                            field_image:
+                              -
+                                uri: 'public://card.png'
+                                url: 'https://8080-drupalninja-drupalxproj-dyzt7c9jit7.ws-us117.gitpod.io/sites/default/files/card.png'
+                                alt: card
+                                title: card
+                      field_summary:
+                        -
+                          value: "Whether you're a designer or a developer, DrupalX provides the perfect foundation to start customizing to your specific needs."
+                          format: basic_html
+                          embed_entities: {  }
+                  -
+                    uuid: bb5372ae-c92c-4c33-931c-b482e0da2561
+                    entity_type: paragraph
+                    bundle: sidebyside
+                    base_fields:
+                      status: true
+                      langcode: en
+                      created: '1724541785'
+                      behavior_settings: {  }
+                    custom_fields:
+                      field_eyebrow:
+                        -
+                          value: 'Bootstrap UI Kits'
+                      field_features: null
+                      field_link:
+                        -
+                          uri: 'https://www.figma.com/community/search?resource_type=mixed&sort_by=relevancy&query=bootstrap+5&editor_type=all&price=all&creators=all'
+                          title: 'Browse Figma UI kits'
+                          options: {  }
+                      field_media:
+                        -
+                          uuid: 9a33874e-ce03-4f0f-9c6e-164a416d574c
+                          entity_type: media
+                          base_fields:
+                            name: card
+                            created: '1724541785'
+                            status: true
+                            langcode: en
+                            url: null
+                          bundle: image
+                      field_sidebyside_layout:
+                        -
+                          value: right
+                      field_summary:
+                        -
+                          value: 'Leverage a variety of Figma community templates built on Bootstrap 5 to jumpstart your design process.'
+                          format: basic_html
+                          embed_entities: {  }
+                      field_title:
+                        -
+                          value: 'DrupalX for Designers'
+                  -
+                    uuid: 395c7d84-b5a9-4cc4-8a45-ea73935d0e56
+                    entity_type: paragraph
+                    bundle: sidebyside
+                    base_fields:
+                      status: true
+                      langcode: en
+                      created: '1724541785'
+                      behavior_settings: {  }
+                    custom_fields:
+                      field_eyebrow:
+                        -
+                          value: 'Project Template'
+                      field_features: null
+                      field_link:
+                        -
+                          uri: 'https://github.com/drupalninja/drupalx-graphql'
+                          title: 'Find out more'
+                          options: {  }
+                      field_media:
+                        -
+                          uuid: 9a33874e-ce03-4f0f-9c6e-164a416d574c
+                          entity_type: media
+                          base_fields:
+                            name: card
+                            created: '1724541785'
+                            status: true
+                            langcode: en
+                            url: null
+                          bundle: image
+                      field_sidebyside_layout:
+                        -
+                          value: left
+                      field_summary:
+                        -
+                          value: 'Visit our GitHub repository to download the DrupalX project template and start building your site today.'
+                          format: basic_html
+                          embed_entities: {  }
+                      field_title:
+                        -
+                          value: 'DrupalX for Developers'
+                field_hide_page_title:
+                  -
+                    value: '1'
+                field_meta_tags: null
+                field_summary: null
+                field_thumbnail: null
+        field_link2:
+          -
+            uri: 'entity:node/3'
+            title: Explore
+            options: {  }
+            linked_entity:
+              uuid: a9f34d11-cbfb-4f78-916d-8fd8c006f728
+              entity_type: node
+              bundle: landing
+              base_fields:
+                title: 'DrupalX Features'
+                status: true
+                langcode: en
+                created: '1724541785'
+                author: admin@example.com
+                revision_log_message: null
+                revision_uid: '1'
+                url: /features
+              custom_fields:
+                field_content:
+                  -
+                    uuid: f3d44b05-d809-4ef9-812d-bbe334d4c71d
+                    entity_type: paragraph
+                    bundle: hero
+                    base_fields:
+                      status: true
+                      langcode: en
+                      created: '1724541785'
+                      behavior_settings: {  }
+                    custom_fields:
+                      field_heading:
+                        -
+                          value: 'Empower Your Web Development with DrupalX'
+                          format: restricted_html
+                      field_hero_layout:
+                        -
+                          value: image_bottom
+                      field_link:
+                        -
+                          uri: 'internal:/'
+                          title: 'Get Started'
+                          options: {  }
+                      field_link2:
+                        -
+                          uri: 'internal:/'
+                          title: 'Learn More'
+                          options: {  }
+                      field_media:
+                        -
+                          uuid: 9a33874e-ce03-4f0f-9c6e-164a416d574c
+                          entity_type: media
+                          base_fields:
+                            name: card
+                            created: '1724541785'
+                            status: true
+                            langcode: en
+                            url: null
+                          bundle: image
+                      field_summary:
+                        -
+                          value: '<p>Discover the future of web development with DrupalX, where innovation meets reliability. Our platform offers user-friendly tools that streamline your workflow and elevate your projects.</p>'
+                          format: basic_html
+                          embed_entities: {  }
+                  -
+                    uuid: f8b269e8-122f-41bb-a12c-29c6f6540ba6
+                    entity_type: paragraph
+                    bundle: sidebyside
+                    base_fields:
+                      status: true
+                      langcode: en
+                      created: '1724541785'
+                      behavior_settings: {  }
+                    custom_fields:
+                      field_eyebrow:
+                        -
+                          value: 'Customizable Components'
+                      field_features:
+                        -
+                          uuid: 458440ea-1700-4fb0-ac43-8f97d53cdcff
+                          entity_type: paragraph
+                          bundle: bullet
+                          base_fields:
+                            status: true
+                            langcode: en
+                            created: '1728138221'
+                            behavior_settings: {  }
+                          custom_fields:
+                            field_icon:
+                              -
+                                value: box
+                            field_summary:
+                              -
+                                value: '<p>Streamlined workflows for faster project delivery.</p>'
+                                format: basic_html
+                                embed_entities: {  }
+                        -
+                          uuid: 6ffc3e09-e817-46e2-a7c4-36cae850f6a6
+                          entity_type: paragraph
+                          bundle: bullet
+                          base_fields:
+                            status: true
+                            langcode: en
+                            created: '1728138231'
+                            behavior_settings: {  }
+                          custom_fields:
+                            field_icon:
+                              -
+                                value: box
+                            field_summary:
+                              -
+                                value: '<p>Streamlined workflows for faster project delivery.</p>'
+                                format: basic_html
+                                embed_entities: {  }
+                        -
+                          uuid: e277c23a-dbb0-4e69-87f7-65db0b5b9c75
+                          entity_type: paragraph
+                          bundle: bullet
+                          base_fields:
+                            status: true
+                            langcode: en
+                            created: '1728138242'
+                            behavior_settings: {  }
+                          custom_fields:
+                            field_icon:
+                              -
+                                value: box
+                            field_summary:
+                              -
+                                value: '<p>User-friendly interface for all skill levels.</p>'
+                                format: basic_html
+                                embed_entities: {  }
+                      field_link: null
+                      field_media:
+                        -
+                          uuid: 9a33874e-ce03-4f0f-9c6e-164a416d574c
+                          entity_type: media
+                          base_fields:
+                            name: card
+                            created: '1724541785'
+                            status: true
+                            langcode: en
+                            url: null
+                          bundle: image
+                      field_sidebyside_layout:
+                        -
+                          value: right
+                      field_summary:
+                        -
+                          value: '<p>At DrupalX, we empower developers with cutting-edge tools designed for efficiency and creativity. Experience seamless integration and unparalleled performance that elevate your web projects.</p>'
+                          format: basic_html
+                          embed_entities: {  }
+                      field_title:
+                        -
+                          value: "Discover the Future of Web Development with DrupalX's Innovative Tools"
+                  -
+                    uuid: a3057a7e-d71c-483c-8d3f-8b16dc5f4c60
+                    entity_type: paragraph
+                    bundle: sidebyside
+                    base_fields:
+                      status: true
+                      langcode: en
+                      created: '1724541785'
+                      behavior_settings: {  }
+                    custom_fields:
+                      field_eyebrow:
+                        -
+                          value: Dependable
+                      field_features: null
+                      field_link:
+                        -
+                          uri: 'internal:/'
+                          title: Explore
+                          options: {  }
+                      field_media:
+                        -
+                          uuid: 9a33874e-ce03-4f0f-9c6e-164a416d574c
+                          entity_type: media
+                          base_fields:
+                            name: card
+                            created: '1724541785'
+                            status: true
+                            langcode: en
+                            url: null
+                          bundle: image
+                      field_sidebyside_layout:
+                        -
+                          value: left
+                      field_summary:
+                        -
+                          value: '<p>At DrupalX, we prioritize reliability and scalability to ensure your web projects thrive. Our robust platform adapts seamlessly to your growing needs, empowering you to build with confidence.</p>'
+                          format: basic_html
+                          embed_entities: {  }
+                      field_title:
+                        -
+                          value: 'Experience Unmatched Reliability and Scalability Today'
+                  -
+                    uuid: 83b95c4b-8d2c-4144-a890-33754447d9a0
+                    entity_type: paragraph
+                    bundle: card_group
+                    base_fields:
+                      status: true
+                      langcode: en
+                      created: '1728260881'
+                      behavior_settings: {  }
+                    custom_fields:
+                      field_card:
+                        -
+                          uuid: 0133e79b-e9c3-40b3-a881-e2bf8c3e9dca
+                          entity_type: paragraph
+                          bundle: stats_item
+                          base_fields:
+                            status: true
+                            langcode: en
+                            created: '1728260922'
+                            behavior_settings: {  }
+                          custom_fields:
+                            field_custom_icon: null
+                            field_icon:
+                              -
+                                value: box
+                            field_summary:
+                              -
+                                value: 'Navigate effortlessly with our intuitive design.'
+                                format: ''
+                            field_title:
+                              -
+                                value: 'User-Friendly Interface'
+                        -
+                          uuid: e52007df-2ce0-45bf-9045-3c1c9f4ab9f1
+                          entity_type: paragraph
+                          bundle: stats_item
+                          base_fields:
+                            status: true
+                            langcode: en
+                            created: '1728260957'
+                            behavior_settings: {  }
+                          custom_fields:
+                            field_custom_icon: null
+                            field_icon:
+                              -
+                                value: box
+                            field_summary:
+                              -
+                                value: 'Tailor your experience with flexible module options.'
+                                format: ''
+                            field_title:
+                              -
+                                value: 'Customizable Modules'
+                        -
+                          uuid: 714b3fcb-fc55-4cd1-9fd0-36e0b8a603e0
+                          entity_type: paragraph
+                          bundle: stats_item
+                          base_fields:
+                            status: true
+                            langcode: en
+                            created: '1728260972'
+                            behavior_settings: {  }
+                          custom_fields:
+                            field_custom_icon: null
+                            field_icon:
+                              -
+                                value: box
+                            field_summary:
+                              -
+                                value: 'Get assistance anytime with our dedicated support team.'
+                                format: ''
+                            field_title:
+                              -
+                                value: 'Comprehensive Support'
+                      field_title:
+                        -
+                          value: 'Discover Our Cutting-Edge Features'
+                  -
+                    uuid: 4406477e-bd04-4518-a250-fd4a057ce35f
+                    entity_type: paragraph
+                    bundle: sidebyside
+                    base_fields:
+                      status: true
+                      langcode: en
+                      created: '1724541785'
+                      behavior_settings: {  }
+                    custom_fields:
+                      field_eyebrow:
+                        -
+                          value: Innovate
+                      field_features:
+                        -
+                          uuid: 958866b3-ffc8-44c8-916d-94a6898d4839
+                          entity_type: paragraph
+                          bundle: stats_item
+                          base_fields:
+                            status: true
+                            langcode: en
+                            created: '1728138351'
+                            behavior_settings: {  }
+                          custom_fields:
+                            field_custom_icon: null
+                            field_icon: null
+                            field_summary:
+                              -
+                                value: 'Easily connect with various tools and services to enhance your web projects.'
+                                format: ''
+                            field_title:
+                              -
+                                value: 'Seamless Integration'
+                        -
+                          uuid: 54591c8f-5ba3-436e-a2a4-06936c5ec461
+                          entity_type: paragraph
+                          bundle: stats_item
+                          base_fields:
+                            status: true
+                            langcode: en
+                            created: '1728138367'
+                            behavior_settings: {  }
+                          custom_fields:
+                            field_custom_icon: null
+                            field_icon: null
+                            field_summary:
+                              -
+                                value: 'Protect your website with advanced security features and regular updates.'
+                                format: ''
+                            field_title:
+                              -
+                                value: 'Robust Security'
+                      field_link:
+                        -
+                          uri: 'internal:/'
+                          title: 'Learn more'
+                          options: {  }
+                      field_media:
+                        -
+                          uuid: 9a33874e-ce03-4f0f-9c6e-164a416d574c
+                          entity_type: media
+                          base_fields:
+                            name: card
+                            created: '1724541785'
+                            status: true
+                            langcode: en
+                            url: null
+                          bundle: image
+                      field_sidebyside_layout:
+                        -
+                          value: right
+                      field_summary:
+                        -
+                          value: '<p>DrupalX empowers you to build dynamic websites with ease. Our platform combines cutting-edge technology with user-friendly features.</p>'
+                          format: basic_html
+                          embed_entities: {  }
+                      field_title:
+                        -
+                          value: 'Experience the Future of Web Development'
+                  -
+                    uuid: 215926f9-0efb-45d6-907b-34efd90903d9
+                    entity_type: paragraph
+                    bundle: text
+                    base_fields:
+                      status: true
+                      langcode: en
+                      created: '1728261616'
+                      behavior_settings: {  }
+                    custom_fields:
+                      field_body:
+                        -
+                          value: '<p>Unlock your web development potential today with our innovative and user-friendly platform.</p>'
+                          summary: ''
+                          format: basic_html
+                          embed_entities: {  }
+                      field_eyebrow: null
+                      field_link:
+                        -
+                          uri: 'internal:/'
+                          title: 'Get Started'
+                          options: {  }
+                      field_link2:
+                        -
+                          uri: 'internal:/'
+                          title: 'Learn More'
+                          options: {  }
+                      field_text_layout:
+                        -
+                          value: left
+                      field_title:
+                        -
+                          value: 'Start Your Journey with DrupalX'
+                  -
+                    uuid: e1433876-4cd5-4bce-a44e-1586a2d5e381
+                    entity_type: paragraph
+                    bundle: accordion
+                    base_fields:
+                      status: true
+                      langcode: en
+                      created: '1728261678'
+                      behavior_settings: {  }
+                    custom_fields:
+                      field_accordion_item:
+                        -
+                          uuid: fae9ed20-bd3e-4d05-bade-e3f78125f224
+                          entity_type: paragraph
+                          bundle: accordion_item
+                          base_fields:
+                            status: true
+                            langcode: en
+                            created: '1728261680'
+                            behavior_settings: {  }
+                          custom_fields:
+                            field_body:
+                              -
+                                value: '<p>DrupalX is a powerful web development platform designed for modern websites. It combines flexibility with user-friendly features, making it suitable for developers of all skill levels. With its robust tools, you can create stunning, responsive websites efficiently.</p>'
+                                summary: ''
+                                format: basic_html
+                                embed_entities: {  }
+                            field_link: null
+                            field_title:
+                              -
+                                value: 'What is DrupalX?'
+                        -
+                          uuid: c2a7de0b-ddf5-4dc3-8cc0-87c90dd9016b
+                          entity_type: paragraph
+                          bundle: accordion_item
+                          base_fields:
+                            status: true
+                            langcode: en
+                            created: '1728261702'
+                            behavior_settings: {  }
+                          custom_fields:
+                            field_body:
+                              -
+                                value: '<p>Absolutely! DrupalX is built with user experience in mind. Its intuitive interface and comprehensive documentation make it accessible for both beginners and experienced developers.</p>'
+                                summary: ''
+                                format: basic_html
+                                embed_entities: {  }
+                            field_link: null
+                            field_title:
+                              -
+                                value: 'Is DrupalX easy to use?'
+                        -
+                          uuid: 3bdc0f46-d35f-4f1c-a63a-7184cc61cde3
+                          entity_type: paragraph
+                          bundle: accordion_item
+                          base_fields:
+                            status: true
+                            langcode: en
+                            created: '1728261710'
+                            behavior_settings: {  }
+                          custom_fields:
+                            field_body:
+                              -
+                                value: '<p>DrupalX offers a wide range of features, including customizable templates, SEO tools, and integration capabilities. It also supports various plugins to enhance functionality. This ensures that you can tailor your website to meet specific needs.</p>'
+                                summary: ''
+                                format: basic_html
+                                embed_entities: {  }
+                            field_link: null
+                            field_title:
+                              -
+                                value: 'What features does it offer?'
+                        -
+                          uuid: 356ee371-fa86-4bde-9864-b1fefd918bf2
+                          entity_type: paragraph
+                          bundle: accordion_item
+                          base_fields:
+                            status: true
+                            langcode: en
+                            created: '1728261721'
+                            behavior_settings: {  }
+                          custom_fields:
+                            field_body:
+                              -
+                                value: '<p>Yes, DrupalX provides dedicated support to all users. You can access a knowledge base, community forums, and direct assistance from our support team. We are committed to helping you succeed with your projects.</p>'
+                                summary: ''
+                                format: basic_html
+                                embed_entities: {  }
+                            field_link: null
+                            field_title:
+                              -
+                                value: 'Is support available?'
+                        -
+                          uuid: 72f502ee-4b1e-44dd-aa10-581cd04614c9
+                          entity_type: paragraph
+                          bundle: accordion_item
+                          base_fields:
+                            status: true
+                            langcode: en
+                            created: '1728261736'
+                            behavior_settings: {  }
+                          custom_fields:
+                            field_body:
+                              -
+                                value: '<p>Yes, we offer a free trial of DrupalX. This allows you to explore its features and capabilities without any commitment. Sign up today to start your journey with us!</p>'
+                                summary: ''
+                                format: basic_html
+                                embed_entities: {  }
+                            field_link: null
+                            field_title:
+                              -
+                                value: 'Can I try it?'
+                      field_title:
+                        -
+                          value: FAQs
+                field_hide_page_title:
+                  -
+                    value: '1'
+                field_meta_tags: null
+                field_summary: null
+                field_thumbnail: null
+        field_media:
+          -
+            uuid: 9a33874e-ce03-4f0f-9c6e-164a416d574c
+            entity_type: media
+            base_fields:
+              name: card
+              created: '1724541785'
+              status: true
+              langcode: en
+              url: null
+            bundle: image
+        field_summary:
+          -
+            value: "<p>Experience the next-gen platform that seamlessly integrates Drupal's powerful CMS with innovative front-end technologies. Elevate your projects with unmatched flexibility and performance.</p>"
+            format: basic_html
+            embed_entities: {  }
+    -
+      uuid: e513b14e-b9b2-4f90-b556-f6f1e4796dd9
+      entity_type: paragraph
+      bundle: sidebyside
+      base_fields:
+        status: true
+        langcode: en
+        created: '1724541785'
+        behavior_settings: {  }
+      custom_fields:
+        field_eyebrow: null
+        field_features:
+          -
+            uuid: d4f67c3f-d1a1-4faa-8ab4-479a5ccfafc0
+            entity_type: paragraph
+            bundle: stats_item
+            base_fields:
+              status: true
+              langcode: en
+              created: '1727384459'
+              behavior_settings: {  }
+            custom_fields:
+              field_custom_icon: null
+              field_icon:
+                -
+                  value: network
+              field_summary:
+                -
+                  value: 'Harness the power of headless CMS to separate the front and back-end for optimal flexibility.'
+                  format: ''
+              field_title:
+                -
+                  value: 'Decoupled Architecture'
+          -
+            uuid: 3a5c3475-cddd-4043-87be-f1d1e2227373
+            entity_type: paragraph
+            bundle: stats_item
+            base_fields:
+              status: true
+              langcode: en
+              created: '1727384469'
+              behavior_settings: {  }
+            custom_fields:
+              field_custom_icon: null
+              field_icon:
+                -
+                  value: bot
+              field_summary:
+                -
+                  value: 'Leverage cutting-edge AI assistants and smart code generators to accelerate your development.'
+                  format: ''
+              field_title:
+                -
+                  value: 'AI Development Tools'
+        field_link: null
+        field_media:
+          -
+            uuid: 9a33874e-ce03-4f0f-9c6e-164a416d574c
+            entity_type: media
+            base_fields:
+              name: card
+              created: '1724541785'
+              status: true
+              langcode: en
+              url: null
+            bundle: image
+        field_sidebyside_layout:
+          -
+            value: right
+        field_summary:
+          -
+            value: "<p>Elevate Your Web Development with DrupalX's Cutting-Edge Features</p>"
+            format: basic_html
+            embed_entities: {  }
+        field_title:
+          -
+            value: 'Unmatched Advantages of DrupalX'
+    -
+      uuid: 1d91a0bb-4542-4fbb-bfc2-dfd49eaa4153
+      entity_type: paragraph
+      bundle: card_group
+      base_fields:
+        status: true
+        langcode: en
+        created: '1727385157'
+        behavior_settings: {  }
+      custom_fields:
+        field_card:
+          -
+            uuid: f4580469-ab86-4f43-8c93-1fa2828a3673
+            entity_type: paragraph
+            bundle: stats_item
+            base_fields:
+              status: true
+              langcode: en
+              created: '1727385163'
+              behavior_settings: {  }
+            custom_fields:
+              field_custom_icon: null
+              field_icon:
+                -
+                  value: code
+              field_summary:
+                -
+                  value: 'Experience seamless integration and flexibility with our Decoupled Architecture.'
+                  format: ''
+              field_title:
+                -
+                  value: 'Unlock the Power of Modern Web Solutions Tailored for You'
+          -
+            uuid: 34118e3d-8819-404d-96f6-df05672a9bc2
+            entity_type: paragraph
+            bundle: stats_item
+            base_fields:
+              status: true
+              langcode: en
+              created: '1727385199'
+              behavior_settings: {  }
+            custom_fields:
+              field_custom_icon: null
+              field_icon:
+                -
+                  value: git-branch
+              field_summary:
+                -
+                  value: "Leverage the power of React and Node.js to dramatically improve your website's efficiency and speed."
+                  format: ''
+              field_title:
+                -
+                  value: 'Experience seamless integration and flexibility with our Decoupled Architecture.'
+          -
+            uuid: a7f738c7-2c47-4b45-b080-08efad83bdf6
+            entity_type: paragraph
+            bundle: stats_item
+            base_fields:
+              status: true
+              langcode: en
+              created: '1727385223'
+              behavior_settings: {  }
+            custom_fields:
+              field_custom_icon: null
+              field_icon:
+                -
+                  value: zap
+              field_summary:
+                -
+                  value: 'Deliver lightning-quick load times and smooth interactions that keep your audience coming back.'
+                  format: ''
+              field_title:
+                -
+                  value: 'Achieve Blazing Fast Performance That Keeps Your Users Engaged and Satisfied'
+        field_title:
+          -
+            value: "Discover the Future of Web Development with DrupalX's Innovative Features"
+    -
+      uuid: 2c7ae251-4296-49b7-8f17-ce3a6cab52e2
+      entity_type: paragraph
+      bundle: logo_collection
+      base_fields:
+        status: true
+        langcode: en
+        created: '1727442803'
+        behavior_settings: {  }
+      custom_fields:
+        field_media_item:
+          -
+            uuid: 84e378f2-dd00-459d-9018-4c89353b9eee
+            entity_type: media
+            bundle: image
+            base_fields:
+              name: drupal.png
+              created: '1727532647'
+              status: true
+              langcode: en
+              url: null
+            custom_fields:
+              field_image:
+                -
+                  uri: 'public://2024/09/28/drupal.png'
+                  url: 'https://8080-drupalninja-drupalxproj-dyzt7c9jit7.ws-us117.gitpod.io/sites/default/files/2024/09/28/drupal.png'
+                  alt: 'Drupal logo'
+                  title: ''
+          -
+            uuid: 14bbf672-441a-408e-bf08-7706894962d3
+            entity_type: media
+            bundle: image
+            base_fields:
+              name: nextjs.png
+              created: '1727532138'
+              status: true
+              langcode: en
+              url: null
+            custom_fields:
+              field_image:
+                -
+                  uri: 'public://2024/09/28/nextjs.png'
+                  url: 'https://8080-drupalninja-drupalxproj-dyzt7c9jit7.ws-us117.gitpod.io/sites/default/files/2024/09/28/nextjs.png'
+                  alt: 'nextjs logo'
+                  title: ''
+          -
+            uuid: 7b34a142-7b7f-4ac4-952f-e31d8b83d82f
+            entity_type: media
+            bundle: image
+            base_fields:
+              name: storybook.png
+              created: '1727532138'
+              status: true
+              langcode: en
+              url: null
+            custom_fields:
+              field_image:
+                -
+                  uri: 'public://2024/09/28/storybook.png'
+                  url: 'https://8080-drupalninja-drupalxproj-dyzt7c9jit7.ws-us117.gitpod.io/sites/default/files/2024/09/28/storybook.png'
+                  alt: 'Storybook logo'
+                  title: ''
+          -
+            uuid: 2033cf4f-ec32-4689-878f-9410fa8e22d0
+            entity_type: media
+            bundle: image
+            base_fields:
+              name: tailwind.png
+              created: '1727532138'
+              status: true
+              langcode: en
+              url: null
+            custom_fields:
+              field_image:
+                -
+                  uri: 'public://2024/09/28/tailwind.png'
+                  url: 'https://8080-drupalninja-drupalxproj-dyzt7c9jit7.ws-us117.gitpod.io/sites/default/files/2024/09/28/tailwind.png'
+                  alt: 'tailwind logo'
+                  title: ''
+          -
+            uuid: 346f015d-a9d3-49bd-bb34-267ee5259720
+            entity_type: media
+            bundle: image
+            base_fields:
+              name: shadcn.png
+              created: '1727532138'
+              status: true
+              langcode: en
+              url: null
+            custom_fields:
+              field_image:
+                -
+                  uri: 'public://2024/09/28/shadcn.png'
+                  url: 'https://8080-drupalninja-drupalxproj-dyzt7c9jit7.ws-us117.gitpod.io/sites/default/files/2024/09/28/shadcn.png'
+                  alt: 'shadcn logo'
+                  title: ''
+          -
+            uuid: 26b36c99-0a3c-457a-98e3-ab4ccfa88ee7
+            entity_type: media
+            bundle: image
+            base_fields:
+              name: graphql.png
+              created: '1727532586'
+              status: true
+              langcode: en
+              url: null
+            custom_fields:
+              field_image:
+                -
+                  uri: 'public://2024/09/28/graphql.png'
+                  url: 'https://8080-drupalninja-drupalxproj-dyzt7c9jit7.ws-us117.gitpod.io/sites/default/files/2024/09/28/graphql.png'
+                  alt: 'GraphQL logo'
+                  title: ''
+          -
+            uuid: 7028d67c-8d2e-4db6-bd43-6e7726384291
+            entity_type: media
+            bundle: image
+            base_fields:
+              name: react.png
+              created: '1727532742'
+              status: true
+              langcode: en
+              url: null
+            custom_fields:
+              field_image:
+                -
+                  uri: 'public://2024/09/28/react.png'
+                  url: 'https://8080-drupalninja-drupalxproj-dyzt7c9jit7.ws-us117.gitpod.io/sites/default/files/2024/09/28/react.png'
+                  alt: 'React logo'
+                  title: ''
+        field_title:
+          -
+            value: 'Trusted Open Source Technology'
+    -
+      uuid: 2ca38ce2-5d7b-4e6c-bea7-2fc5357f9b44
+      entity_type: paragraph
+      bundle: sidebyside
+      base_fields:
+        status: true
+        langcode: en
+        created: '1724541785'
+        behavior_settings: {  }
+      custom_fields:
+        field_eyebrow: null
+        field_features: null
+        field_link: null
+        field_media:
+          -
+            uuid: 9a33874e-ce03-4f0f-9c6e-164a416d574c
+            entity_type: media
+            base_fields:
+              name: card
+              created: '1724541785'
+              status: true
+              langcode: en
+              url: null
+            bundle: image
+        field_sidebyside_layout:
+          -
+            value: left
+        field_summary:
+          -
+            value: "<p>Join the DrupalX ecosystem to unlock new possibilities in web development. Our platform combines the best of Drupal's robust backend with cutting-edge frontend technologies, enabling you to create powerful, scalable, and innovative web solutions.</p>"
+            format: basic_html
+            embed_entities: {  }
+        field_title:
+          -
+            value: 'Elevate Your Web Development Skills with DrupalX'
+    -
+      uuid: 75a62830-d9fb-43b0-9ac6-9a75fef27141
+      entity_type: paragraph
+      bundle: text
+      base_fields:
+        status: true
+        langcode: en
+        created: '1727707542'
+        behavior_settings: {  }
+      custom_fields:
+        field_body:
+          -
+            value: "<p>Start building faster, more efficient websites today. Explore DrupalX's capabilities and see how it can transform your development process.</p>"
+            summary: ''
+            format: basic_html
+            embed_entities: {  }
+        field_eyebrow: null
+        field_link:
+          -
+            uri: 'entity:node/5'
+            title: 'Get Started'
+            options: {  }
+            linked_entity:
+              uuid: 4b432a0a-e5df-409a-8b30-134fed6e2291
+              entity_type: node
+              base_fields:
+                title: 'Get Started'
+                status: true
+                langcode: en
+                created: '1724541785'
+                author: admin@example.com
+                revision_log_message: null
+                revision_uid: '1'
+                url: /get-started
+              bundle: landing
+        field_link2:
+          -
+            uri: 'entity:node/3'
+            title: 'Learn More'
+            options: {  }
+            linked_entity:
+              uuid: a9f34d11-cbfb-4f78-916d-8fd8c006f728
+              entity_type: node
+              base_fields:
+                title: 'DrupalX Features'
+                status: true
+                langcode: en
+                created: '1724541785'
+                author: admin@example.com
+                revision_log_message: null
+                revision_uid: '1'
+                url: /features
+              bundle: landing
+        field_text_layout:
+          -
+            value: buttons-right
+        field_title:
+          -
+            value: 'Accelerate Your Web Development Journey'
+    -
+      uuid: 87e65230-43e0-488f-82f1-505eb04bd3b3
+      entity_type: paragraph
+      bundle: newsletter
+      base_fields:
+        status: true
+        langcode: en
+        created: '1727729563'
+        behavior_settings: {  }
+      custom_fields:
+        field_summary:
+          -
+            value: '<p>Get the latest product updates, feature releases, and optimization tips delivered straight to your inbox.</p>'
+            format: basic_html
+            embed_entities: {  }
+        field_title:
+          -
+            value: 'Stay Informed with DrupalX'
+    -
+      uuid: 44ff5bf6-9846-449d-a618-1ec72d05bafc
+      entity_type: paragraph
+      bundle: sidebyside
+      base_fields:
+        status: true
+        langcode: en
+        created: '1727730047'
+        behavior_settings: {  }
+      custom_fields:
+        field_eyebrow: null
+        field_features:
+          -
+            uuid: b22d60c4-1de1-4ea2-9fbc-cb4816f3c39e
+            entity_type: paragraph
+            bundle: stats_item
+            base_fields:
+              status: true
+              langcode: en
+              created: '1727730099'
+              behavior_settings: {  }
+            custom_fields:
+              field_custom_icon: null
+              field_icon: null
+              field_summary:
+                -
+                  value: 'Explore our innovative tools designed to enhance your web development journey, from AI-assisted coding to seamless React integration.'
+                  format: ''
+              field_title:
+                -
+                  value: 'Key Features'
+          -
+            uuid: c0748cae-8c43-4352-b2cb-e8a98b489931
+            entity_type: paragraph
+            bundle: stats_item
+            base_fields:
+              status: true
+              langcode: en
+              created: '1727730112'
+              behavior_settings: {  }
+            custom_fields:
+              field_custom_icon: null
+              field_icon: null
+              field_summary:
+                -
+                  value: "Leverage DrupalX's powerful features to reduce development time and deliver high-performance websites faster than ever."
+                  format: ''
+              field_title:
+                -
+                  value: 'Accelerate Your Projects'
+        field_link: null
+        field_media:
+          -
+            uuid: 9a33874e-ce03-4f0f-9c6e-164a416d574c
+            entity_type: media
+            base_fields:
+              name: card
+              created: '1724541785'
+              status: true
+              langcode: en
+              url: null
+            bundle: image
+        field_sidebyside_layout:
+          -
+            value: right
+        field_summary:
+          -
+            value: '<p>DrupalX offers a powerful blend of flexibility and performance, enabling seamless integration and unparalleled user experience.</p>'
+            format: basic_html
+            embed_entities: {  }
+        field_title:
+          -
+            value: 'Discover the Essential Features That Make DrupalX Stand Out in Web Development'
+  field_hide_page_title:
+    -
+      value: '1'
+  field_meta_tags: null
+  field_summary: null
+  field_thumbnail: null
